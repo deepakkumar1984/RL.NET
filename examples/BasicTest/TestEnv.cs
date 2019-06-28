@@ -49,7 +49,8 @@ namespace BasicTest
             return new EnvironmentResult<float>()
             {
                 Done = false,
-                Observation = 3
+                Observation = 3,
+                Reward = 5
             };
         }
 

@@ -15,7 +15,7 @@ namespace BasicTest
             var step = env.Step(2);
 
             var wrap = new TestRewardWrapper(env);
-            var reward = wrap.Reward(2);
+            var reward = wrap.Step(2);
 
             Console.ReadLine();
         }
